@@ -87,6 +87,7 @@ class ContactHelper:
         self.change_select_value("bmonth", contact.birthmonth)
         self.change_select_value("aday", contact.annivday)
         self.change_select_value("amonth", contact.annivmonth)
+        self.change_select_value("new_group", contact.group)
 
     def change_field_value(self, field_name, text):
         wd = self.app.wd
